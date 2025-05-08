@@ -21,7 +21,7 @@
       }
     </style>
   </head>
-  <body class="bg-[#f8eedc] text-gray-800 relative overflow-hidden">
+  <body class="bg-[#f8eedc] text-gray-800 relative overflow-x-hidden">
     <!-- Decorative plant images -->
     <img src="images/plant1.png" alt="Plant" class="absolute top-[-50px] left-[-30px] w-64 opacity-80 pointer-events-none z-0" />
     <img src="images/plant2.png" alt="Plant" class="absolute bottom-[-60px] right-[-20px] w-64 opacity-80 pointer-events-none z-0" />
@@ -47,20 +47,29 @@
       </nav>
     </header>
 
-    <!-- Profile image -->
-    <section class="flex justify-center py-6 relative z-10">
-      <img
-        src="your-profile-image.jpg"
-        alt="Mykhail Poddenezhnyi"
-        class="w-32 h-32 object-cover rounded-2xl shadow-md"
-      />
+    <!-- Profile image with plant frame -->
+    <section class="relative flex justify-center py-10 z-10">
+      <div class="relative w-48 h-48">
+        <img
+          src="images/mykhail-profile.jpg"
+          alt="Mykhail Poddenezhnyi"
+          class="w-full h-full object-cover rounded-full shadow-lg border-4 border-white relative z-10"
+        />
+        <!-- Frame plants -->
+        <img src="images/plant5.png" class="absolute -top-6 -left-6 w-20 rotate-[-15deg] z-0 opacity-90" alt="Leaf" />
+        <img src="images/plant6.png" class="absolute -top-4 -right-4 w-20 rotate-[10deg] z-0 opacity-90" alt="Leaf" />
+        <img src="images/plant7.png" class="absolute -bottom-5 -left-4 w-24 rotate-[5deg] z-0 opacity-90" alt="Leaf" />
+      </div>
     </section>
 
     <!-- Introduction Section -->
     <main class="px-8 pb-20 max-w-4xl mx-auto relative z-10">
       <section class="bg-white/70 p-6 rounded-2xl shadow-md">
         <h2 class="text-2xl font-semibold mb-4">Introduction</h2>
-        <p>Hello! My name is Mykhail Poddenezhnyi. I'm from Kyiv, Ukraine, and currently studying English Philology at Masaryk University in Brno. I’ve also studied cybersecurity, logistics, and UX design through Coursera. I’m passionate about history, politics, languages, and creative projects. I adapt quickly, enjoy working with people, and love learning new skills.</p>
+        <p>My name is Mykhail Poddenezhnyi, and I come from Kyiv, Ukraine. English has been a part of my life since early childhood — I started learning it when I was around four or five years old. What began as a simple exposure has gradually turned into a lifelong journey of development, exploration, and passion. In today’s rapidly globalizing world, I believe English is not just a language, but a powerful tool that connects people, cultures, and opportunities. This belief led me to choose the English Language for Education program at university, aiming to build a meaningful career around both learning and teaching the language.</p>
+        <p class="mt-4">As someone growing up in a country undergoing both war and European integration, I have come to see English as a bridge — one that opens doors to international communication, education, and collaboration. I have already had the chance to assist my English teacher at my local school and help friends prepare for exams. These experiences sparked a deeper interest in teaching and made me realize how rewarding it is to help others grow.</p>
+        <p class="mt-4">Outside of academics, I am an avid reader, especially fond of dystopian literature, though I enjoy stories of all kinds. I speak Ukrainian, Czech, and English fluently, and I can understand most Slavic languages. I’m still discovering and refining my own learning and teaching styles, but I see this portfolio as a great opportunity to reflect on that process and track my progress.</p>
+        <p class="mt-4">This language portfolio is not just a requirement — it is a personal record of how far I’ve come and a stepping stone to where I hope to go as a future educator.</p>
       </section>
     </main>
 
